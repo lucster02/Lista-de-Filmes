@@ -1,0 +1,80 @@
+body {
+    background-color:black;
+    background-image:image("images/camera.jpg");
+    font:  15pt Helvetica;
+    color: white;
+    text-align: center;
+}
+
+p {
+    min-width: 200px;
+    max-width: 800px;
+}
+
+#topo {
+    background-image: url(images/filas-de-assentos\ \(1\).jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#button {
+    height: 50px;
+    width: 150px;
+    min-width: min-content;
+    background-color: red;
+    color: white;
+    font: bold 15pt Helvetica;
+    border-radius: 5%;
+    border: none;
+    margin: 10px;
+    margin-left: 50px ;
+    margin-right: 50px ;
+}
+
+#Cine {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    height: 550px;
+    justify-content: center;
+    align-items: center;
+}
+
+#Cabec {
+    display: flex;
+    align-items: center;
+    background-color: rgba(26, 25, 25, 0);;
+    justify-content: space-around;
+    height: 75px;
+}
+
+#info {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height:1500px;
+    justify-content: space-around;
+}
+
+footer {
+    font: normal 10pt gray;
+    border-top: 10px solid rgb(26, 25, 25);
+}
+
+.borderInfo {
+    display: flex;
+    flex-direction: column;
+    border-top: 10px solid rgb(26, 25, 25);
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerP {
+    display: inline;
+    color: gray;
+    height: min-content;
+    width: min-content;
+    margin: 0;
+}
